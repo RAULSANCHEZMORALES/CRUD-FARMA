@@ -1,0 +1,17 @@
+.resaltado {
+    background-color: yellow;
+    font-weight: bold;
+  }
+
+  .custom-table {
+    border: 1px solid green;
+    margin: 100px;
+    background-color: white;
+    align-items: flex-end;
+  }
+  .iconText {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+  }
+  

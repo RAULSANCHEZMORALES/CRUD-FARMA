@@ -1,0 +1,73 @@
+.App {
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.datos {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+ }
+ 
+ .datos input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin: 5px;
+ }
+ 
+ .datos button{
+  width: 320px;
+  height: 50px;
+  margin-top: 5px;
+ }
+ 
+ .date-input {
+  background-color: #f8f8f8; /* Cambia el color de fondo */
+  color: #333; /* Cambia el color del texto */
+  padding: 8px; /* Cambia el espaciado interno */
+  font-size: 14px; /* Cambia el tamaño de fuente */
+  /* Agrega cualquier otro estilo deseado */
+}
+
+.carousel-item-enter {
+  opacity: 0;
+}
+
+.carousel-item-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.carousel-item-exit {
+  opacity: 1;
+}
+
+.carousel-item-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+.rechazado {  
+  background-color: red;
+}
+
+.aprobado {
+  background-color: green;
+}
+
+.cuarentena {
+  background-color: yellow;
+}
+ 
+.iconText {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
+
